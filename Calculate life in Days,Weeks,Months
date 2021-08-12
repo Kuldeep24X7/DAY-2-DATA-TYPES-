@@ -1,0 +1,24 @@
+# 🚨 Don't change the code below 👇
+age = input("What is your current age?")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+
+C_age = int(age)
+D_Left = 90-C_age
+
+print(f"You have {D_Left*365} days, {D_Left*52} weeks, and {D_Left*12} months left.")
+
+Article on Yor life in Weeks 
+
+https://waitbutwhy.com/2014/05/life-weeks.html
+
+
+
+
+
+
+
+
+
