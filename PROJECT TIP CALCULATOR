@@ -1,0 +1,18 @@
+#If the bill was $150.00, split between 5 people, with 12% tip. 
+#Each person should pay (150.00 / 5) * 1.12 = 33.6
+#Format the result to 2 decimal places = 33.60
+#Tip: There are 2 ways to round a number. You might have to do some Googling to solve this.💪
+#HINT 1: https://www.google.com/search?q=how+to+round+number+to+2+decimal+places+python&oq=how+to+round+number+to+2+decimal
+#HINT 2: https://www.kite.com/python/answers/how-to-limit-a-float-to-two-decimal-places-in-python
+
+print("Welcome to the Tip Calculator") # Welcoming the Audience
+
+Bill_Amount = float((input("What was the total bill ? \n $"))) # Inputing the Total bill and converting to FLoat.
+
+Bill_Percent = int(input("What percentage tip would you like to give? 10, 12,or 15 ?\n")) # #Inputing the Bill percentage and converting to Int.
+
+No_of_People = int(input("How many people to splitt the bill? \n")) #Inputing the No of people  and converting to Int.
+
+Per_Person_Amount = ((Bill_Amount+(Bill_Amount*(Bill_Percent/100)))/No_of_People) # Formula for converting total bill into tip with respect to percentage 
+
+print(f"Each person should pay : ${round(Per_Person_Amount,2)}") # End Result 
