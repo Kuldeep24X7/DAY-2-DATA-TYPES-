@@ -1,0 +1,77 @@
+#Data Types
+# LEARN DATA TYPES
+# STRING
+
+print("Hello"[4])# this method is SubScripting
+
+print("123"+"456") # NUmbers in inverted commas are also considered as Strings.
+
+
+# INTEGER
+# # FLOAT
+# BOOLEAN
+# will be used a lot of times
+# True
+# False
+
+# type() check fucntion to check Data type
+
+num_char = len (input("What is your Name? \n"))
+
+new_num_char = str(num_char) # converting integer to String 
+
+print("Your Name has " + new_num_char +  " Characters.")
+
+# Mathematical Operations
+
+# PEMDASLR
+# ()
+# **
+# * / 
+# + -
+
+# print(3/3+3*3-3)
+# print(3*(3+3)/3-3)
+# print(3-3*3/3+3)
+
+print(round(8/3,2)) # to Round off numbers.
+
+# // is a FLow division to get a divisor in int.
+
+# Manipulate value based on previous Value
+
+# Example
+
+Score = 0
+
+# Use scores a point
+
+# Score+=1
+# Score -=1
+# Score *= 5
+#Score /= 1
+Score *=5
+print(Score)
+
+
+# F STRING Mix String and Data types.
+# Helps in concatenating string with Different Data types. without converting we use F String
+
+# Place F infront of the String
+
+# F-String
+
+score = 50
+height = 1.8
+isWinning = True
+
+print(f"Your Score is {score},your height is {height},you are winning is {isWinning}")
+
+
+
+
+
+
+
+
+
